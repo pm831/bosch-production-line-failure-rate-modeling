@@ -49,6 +49,14 @@ sample_submission.csv - a sample submission file in the correct format
 ### Software:
 Python (Jupyter Notebook)
 
+### Techniques:
+
+Extremely Randomized Trees Classifier
+
+Gradient Boosting Machine 
+
+Random Forest
+
 ### Data:
 
 The data for this competition represents measurements of parts as they move through Bosch's production lines. Each part has a unique Id. The goal is to predict which parts will fail quality control (represented by a 'Response' = 1).
@@ -60,3 +68,15 @@ In addition to being one of the largest datasets (in terms of number of features
 ID 
 
 Response
+
+### Communication of Results to Business Partner:
+
+To a business partner, I would explain that the Random Forest (all else equal) would work better for complex data (high variance, low bias) that’s a bit more unknown in terms of predictors’ effect on the response variable since it looks at all predictor variables equally in terms of its importance. However, for AdaBoost, although it has a higher accuracy rate, is better for ‘biased’ data vs. data with a lot of variance. However, the caveat is that sometimes the results of AdaBoost has a higher probability of seeing new data and predicting ‘wrong’ if that new set of data has more variance.
+
+### Future Work:
+
+Continue to do hyperparameter tuning of the model and creating new features/removing old features to help increase the prediction accuracy of the model
+
+Try other types of models to see if the accuracy rate improves
+
+More data visualization/patterns within the dataset (external sources) that can lead to more insights and decision-making from a business perspective
