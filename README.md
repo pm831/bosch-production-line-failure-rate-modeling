@@ -1,4 +1,4 @@
-# Bosch Production Line Performance Analysis
+# Bosch Production Line Failure Rate Modeling
 ### Pujan Malavia
 
 ![bosch ](https://user-images.githubusercontent.com/19572673/64445028-7f918280-d0a3-11e9-8bbe-9838812a5542.png)
